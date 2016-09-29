@@ -6,7 +6,7 @@ This dockerfile is used to create a base images to run executable jars.
 
 To build this base image as name `java-jar-runner`, navigate your bash path `java-jar-runner` workspace and run the following command.
 
-	docker build -it java-jar-runner .
+	docker build -t java-jar-runner .
 
 
 ##  Build custom docker images base on `java-jar-runner` image
